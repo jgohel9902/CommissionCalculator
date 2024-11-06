@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.calculator {
+    width: 80%;
+    margin: auto;
+}
+.form1 {
+    margin-bottom: 15px;
+}
+.form1 label {
+   
+    margin-bottom: 5px;
+}
+.form1 input {
+   
+    padding: 5px;
+}
+.form1 button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.form1 button:hover {
+    background-color: #b3000f;
+}
+.output {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f8f9fa;
+}

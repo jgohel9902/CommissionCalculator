@@ -1,0 +1,55 @@
+<!--Jenil Gohel
+Student ID: 8909157
+Mid Term Exam
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "CSs/styles.css">
+</head>
+<body>
+<div class="calculator">
+    <h1>COMMISSION CALCULATOR</h1>
+    <form id="form">
+
+        <div class="form1">
+            <label for="Agent Name">Agent Name*</label>
+            <input type="text" id="Agent Name" name="Agent Name" required>
+        </div>
+        <div class="form1">
+            <label for="Agent Number">Agent Number*</label>
+            <input type="text" id="Agent Number" name="Agent Number" pattern="[A-Za-z]{2}\d{6}" required>
+        </div>
+
+        <div class="form1">
+            <label for = "Agent City">Agent City*</label>
+            <input type="text" id="Agent City" name="Agent City"  required>
+        </div>
+
+        <div class="form1">
+            <label for="totalcostofphones">Total Cost of Phones Sold*</label>
+            <input type="number" id="totalcostofphones" name="total-cost-phones" required>
+        </div>
+        <div class="form1">
+            <label for="totalcostofaccessories">Total Cost of Accessories Sold*</label>
+            <input type="number" id="totalcostofaccessories" name="totalcostofaccessories" required>
+        </div>
+        <div class="form1">
+            <label for="Commission Received">Commission Received Till Date</label>
+            <input type="number" id="Commission Received" name="Commission Received">
+        </div>
+        <div class="form1">
+            <button type="submit">CALCULATE</button>
+        </div>
+    </form>
+    <div class="output" id="output"></div>
+</div>
+
+</body>
+
+<!--attacching the javascript file-->
+<script src = "Javascript/script.js"></script>
+</html>
